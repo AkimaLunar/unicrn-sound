@@ -11,6 +11,7 @@ body{
 	background-color:#ffffff;
 	line-height: 24px;
 }
+
 a, a:hover, a:focus{
 	outline:none;
 	color:#82e0ff;
@@ -154,7 +155,7 @@ li{
 	outline:none;
 }
 .navigation_main.navbar-fixed-top{
-	background: url(../img/pattern2.png) repeat-x scroll left bottom transparent;
+	background: url(../../images/pattern2.png) repeat-x scroll left bottom transparent;
 	left: 0;
     margin-bottom: 0;
     position: fixed;
@@ -325,16 +326,6 @@ blockquote {
 
 
 .tablet_drop_down{display:none;}
-.hello_block{
-    text-align:center;
-    font-size:1.2em;
-    color:#82e0ff;
-    padding-top:14px;
-    padding-bottom:60px;
-    font-family:'Lato',Arial,sans-serif;
-text-transform:uppercase;
-    font-weight:300;
-}
 
 .decorative_line{
 	display: inline;
@@ -366,7 +357,7 @@ text-transform:uppercase;
 }
 
 .header_arrow_button{
-	background: url("../img/header_arrow_button.svg") no-repeat scroll 0 0 transparent;
+	background: url("../../images/header_arrow_button.svg") no-repeat scroll 0 0 transparent;
     background-size:contain;
     margin: 0 auto;
     margin-top: 20px;
@@ -790,7 +781,7 @@ h4 i{
 }
 
 .footer{
-	background: url(../img/footer_pattern.png) repeat-x;
+	background: url(../../images/footer_pattern.png) repeat-x;
 	border:none;
 	padding-top:9px;
 	margin-top:-9px;

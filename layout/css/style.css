@@ -54,7 +54,7 @@ h2 {
 	color:#82e0ff;
 	font-weight:100;
 	font-size:4em;
-	line-height:1.2em;
+	line-height:1.4em;
 }
 h1 small{
 	font-size:14px;	
@@ -450,9 +450,9 @@ blockquote {
 }
 
 .event_block input[type=email] {
-	padding: 11px 6px;
-    height:44px;
-    width: 356px;
+	padding: 11px 0px;
+	padding-left: 6px;
+	width: 100%;
 }
 
 .isotop_item{overflow:hidden;position:relative;}
@@ -570,6 +570,7 @@ blockquote {
 .newsletter{
 	margin: 0 !important;
     padding: 11px 6px !important;
+    width: 100%;
 }
 
 .follow_element a{
@@ -670,6 +671,7 @@ blockquote {
     border-radius: 6px;
     font-size: 17.5px;
     padding: 11px 19px;
+    float:left;
 }
 
 .the_btn.btn-small {
@@ -683,6 +685,9 @@ blockquote {
     padding: 0 6px;
 }
 .the_btn.btn-block{
+    font-size: 17.5px;
+    padding: 11px 19px;
+    float:left;
 	display: block;
 	  width: 100%;
 	  padding-right: 0;
@@ -903,6 +908,11 @@ h4 i{
 	/*color:#ffffff;*/
 }
 
+
+
+/*END FORM STYLE*/
+
+
 @media (max-width: 1370px) {
 
 	.logo {
@@ -994,6 +1004,7 @@ h4 i{
 	
 	.newsletter{
 		margin-bottom: 20px !important;
+        width: 90%;
 	}
 	
 	.row-fluid ol,
@@ -1009,6 +1020,10 @@ h4 i{
 		margin-right:20px;
 		text-align: center;
 	}
+    
+    .page-header h2 {
+        line-height: 2em;
+    }
 	.item_buttons_left{
 		margin: 0 20px 30px !important;
 		width: auto !important;
@@ -1097,8 +1112,10 @@ h4 i{
 		display: none;
 	}
 
-	.the_btn .btn-large {
+	.the_btn.btn-large {
 		text-align: center;
+        width: 40%;
+        margin: 0 30%;
 	}
 	
 	.form_element1,
@@ -1125,7 +1142,13 @@ h4 i{
 	}
 	.event_block input[type=email] {
 		padding: 10px;
-		width: 100%;
+		width: 90%;
+	}
+    
+    .event_block.the_btn.btn-large {
+		text-align: center;
+        width: 40%;
+        margin: 0 30%;
 	}
 }
 

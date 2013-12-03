@@ -909,9 +909,12 @@ h4 i{
 }
 
 
-
-/*END FORM STYLE*/
-
+/*THANK YOU PAGE*/
+.stars {
+    background: url(../../images/header_bg_stars2.jpg);
+    background-size: cover;
+}
+/*END THANK YOU PAGE*/
 
 @media (max-width: 1370px) {
 
@@ -1147,7 +1150,12 @@ h4 i{
         width: 40%;
         margin: 0 30%;
 	}
+
+	.stars {
+    background: rgb(45,34,67);
+	}
 }
+
 
 @media (max-width: 480px) {
 	.flexslider{
